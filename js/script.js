@@ -23,3 +23,13 @@ for(var i = 0; i <= 20; i++) {
 };
 
 console.log(b);
+
+var c = [];
+
+for(var i = 0; i < 30; i++) {
+    if (i % 2 != 0) {
+        c[i] = i;
+    }
+}
+
+console.log(c);
