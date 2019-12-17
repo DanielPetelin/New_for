@@ -9,4 +9,12 @@ var array = [];
     //}
 //}
 
-//console.log(array);
+for(var i = 0; i < 9; i++) {
+    if (i % 2 == 0) {
+        array[i] = 0;
+    } else {
+        array[i] = 1;
+    }
+};
+
+console.log(array);
